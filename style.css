@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: #f33c3c;
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+    border-radius: 32px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 32px 0px 0px;
+}
+.blog-title{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 0px 20px;
+}
+.blog-text h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+    font-weight: bold;
+}
+.editbutton1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background-color: #16a7ba;
+    padding: 0px 15px;
+    border-radius: 8px;
+}
+.blog-text p{
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px;
+}
+.deletebutton1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background-color: #f44336;
+    padding: 2px 15px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.publishbutton1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background-color: #4caf50;
+    padding: 2px 15px;
+    border-radius: 8px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+}
+.editbutton2{
+    color: #16a7ba;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background-color: #baeef5;
+    padding: 0px 15px;
+    border-radius: 8px;
+}
+.deletebutton2{
+    color: #16a7ba;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    padding: 2px 15px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.publishbutton2{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background-color: #16a7ba;
+    padding: 2px 15px;
+    border-radius: 8px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+}
+@media(max-width: 1250px){
+    .blog-box {
+        width: 300px;
+    }
+}
+@media(max-width: 1100px){
+    .blog-box{
+        width: 70%;
+    }
+}
+@media(max-width: 550px){
+    .blog-box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #blog{
+        padding: 20px;
+    }
+}
